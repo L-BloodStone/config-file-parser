@@ -9,6 +9,7 @@ const tokens = { }
 for (let i of pairs) {
     // ignore comment line
     if (i.match(/^\/\//)) continue
+    if (i.match(/^#/)) continue
 
     // split the token and value
     const token = i.split(/ ?: ?/)
