@@ -1,0 +1,10 @@
+{
+  "name": "config-file-parser",
+  "version": "0.1.1",
+  "main": "index.js",
+  "keywords": ["config", "parser", "tokenizer"],
+  "author": "L-BloodStone",
+  "license": "MIT",
+  "type": "module",
+  "description": "A simple whitespace sensitive, colon separated config file parser."
+}
